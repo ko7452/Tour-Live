@@ -15,6 +15,9 @@ import ListGroup from "react-bootstrap/ListGroup";
 // 게시글 상단 표시: 번호 / 제목 / 첨부파일 / 작성일 / 조회수
 const BoardList = ({ boards, setbBoards }) => {
   // const [pageSize, setPageSize] = useState(5);
+  // const indexOfLastPost = currentPage * postsPerPage;
+  // const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  // const currentPosts = boards.slice(indexOfFirstPost, indexOfLastPost);
 
   const BOARD_URL = `http://tourlive-code-test-1586978259.ap-northeast-2.elb.amazonaws.com/v1/tours`;
   const searchBoard = () => {
